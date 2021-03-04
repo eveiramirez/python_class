@@ -12,11 +12,11 @@ DESCRIPTION
 	Make the reverse complement of DNA sequence
     
 CATEGORY
-	Genomic Sequence de Bebecita bebelin
+	Genomic Sequence
     
 USAGE
 
-    % python reverse-complement.py -i sequence.txt 
+    % python reverse-complement.py -i FILENAME 
     
     example
     
