@@ -1,0 +1,23 @@
+NAME
+        Name
+
+VERSION
+        #.#
+
+AUTHOR
+        Name <email>
+
+DESCRIPTION
+        ...
+
+CATEGORY
+        ...
+
+USAGE
+        ...
+
+ARGUMENTS
+        ...
+
+SEE ALSO
+        ...
