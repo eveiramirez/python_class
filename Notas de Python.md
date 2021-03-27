@@ -1,5 +1,11 @@
 # Notas de Python
 
+
+
+[TOC]
+
+
+
 ## CLASE 11/03/2021
 
 Pycharm, editor/IDE de Python
@@ -11,20 +17,6 @@ python --version
 Permite verificar la version de Python
 
 ## CLASE 18/03/2021
-
-Pasos para
-
-Proposicion del problema
-
-Analisis del problema
-
-Hipotesis
-
-Experimentacion
-
-Resultados
-
-
 
 Ciclo de desarrollo de software
 
@@ -76,13 +68,11 @@ DOI, serie de caracteres unico que sirve como identificador.
 
 
 
-Python
+### Python
 
 Lenguaje interactivo, estructurado y de alto nivel
 
-
-
-Caracteristicas:
+Caracteristicas del lenguaje:
 
 Potente
 
@@ -149,10 +139,6 @@ Permite cambiar el nombre de una variable dentro de un programa o varios archivo
 Ctrl+F
 
 Permite realizar una busqueda en el codigo, y pueden hacerse busquedas con expresiones regulares
-
-
-
-
 
 
 
