@@ -7,7 +7,10 @@ VERSION
         [#.#]
 
 AUTHOR
-        [Author] [email]
+        [Author]
+
+CONTACT
+	[email]
 
 DESCRIPTION
         
