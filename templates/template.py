@@ -1,33 +1,30 @@
 """
 
 NAME
-        [programName].py
+	[programName].py
 
 VERSION
-        [#.#]
+	[#.#]
 
 AUTHOR
-        [Author] <[username]@gmail.com>
+	[Author] <[username]@gmail.com>
 
 CONTACT
-    	  [email]
-
+	[email]
 
 DESCRIPTION
-        [briefly describe what the program does]
+	[briefly describe what the program does]
 
 CATEGORY
-  	    [category of the program: sequence analysis for example]
+	[category of the program: sequence analysis for example]
 
 USAGE
-        [programName][-options/arguments]
-
+	[programName][-options/arguments]
 
 ARGUMENTS
-	      [name]  [description]
-
+	[name]  [description]
 
 EXAMPLES
-        [Example 1: describe the example, input and outputs]
-
+	[Example 1: describe the example, input and outputs]
+        
 """
