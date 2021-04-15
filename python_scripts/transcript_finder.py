@@ -35,7 +35,7 @@ EXAMPLES
         Output:
         Escribe tu secuencia de DNA: TATTACTCCATACCTACCATTAAAAA
         El primer codon de inicio TAC empieza en la posicion 3 y el primer codon de paro ATT termina en la posicion 20
-        El RNA transcrito desde el codon de inicio hasta el codon de paro es:  AUGAGGUAUGGAUGGUAA
+        La secuencia del transcrito (RNA) desde el codon de inicio hasta el codon de paro es:  AUGAGGUAUGGAUGGUAA
 
 """
 
