@@ -13,7 +13,7 @@ CONTACT
         iramirez@lcg.unam.mx
 
 DESCRIPTION
-        It prints the positions of the triplets that encode the first start codon and the first stop codon of a
+        Prints the positions of the triplets that encode the first start codon and the first stop codon of a
         DNA sequence, and prints the transcript sequence between those codons.
 
 CATEGORY
