@@ -13,7 +13,7 @@ CONTACT
         iramirez@lcg.unam.mx
 
 GITHUB
-        https://github.com/eveiramirez/python_class/edit/master/python_scripts/nucleotide_counter.py
+        https://github.com/eveiramirez/python_class/blob/master/python_scripts/nucleotide_counter.py
 
 DESCRIPTION
         This program calculates the number of DNA bases in a sequence
