@@ -248,6 +248,8 @@ Algunos son: len, find, replace
 
 Funcion len: 'len' permite medir la longitud de un string
 
+len(var)
+
 
 
  **BUSCAR**
@@ -325,3 +327,68 @@ Para incluir caracteres especies, se usa \
 \t
 
 \ ''	\\Deje un espacio porque no me deja junto
+
+
+
+**Imprimir variables/funciones en string**
+
+Iniciar el string con f y la variable, funcion, metodo dentro de corchetes {}
+
+print(f'Texto a imprimir {Variable/function}')
+
+print('string' + str(function(var)))
+
+print('string', function/var)		\Al hacer esto, se inserta un espacio entre ambos
+
+
+
+**Contar**
+
+Contar caracteres en un string
+
+var.count('pattern')
+
+var = hello
+
+var.count('l')
+
+output: 2
+
+
+
+**LECTURA Y ESCRITURA DE ARCHIVOS**
+
+**Input**
+
+input() Pasar un valor directo desde la terminal
+
+open() Lee archivos de texto
+
+Argumentos (-i = input, - o = output, --h = help)
+
+
+
+print inserta un salto de linea al imprimir
+
+
+
+Archivos binarios o comprimidos al estar en bytes, se abren de manera diferente
+
+
+
+**open**
+
+open("path/filename")
+
+Pueden usarse rutas simbolicas/relativas o rutas absolutas
+
+
+
+var.close()	  Cierra el archivo
+
+var.readline		Lee una linea
+
+var.read			  Lee el archivo
+
+**Note:** You should always close your files, in some cases, due to buffering, changes made to a file may not show until you close the file.
+
