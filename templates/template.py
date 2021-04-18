@@ -12,6 +12,9 @@ AUTHOR
 CONTACT
 	[email]
 
+GITHUB
+	[GitHub link]
+
 DESCRIPTION
 	[briefly describe what the program does]
 
@@ -26,5 +29,5 @@ ARGUMENTS
 
 EXAMPLES
 	[Example 1: describe the example, input and outputs]
-        
+
 """
