@@ -392,3 +392,208 @@ var.read			  Lee el archivo
 
 **Note:** You should always close your files, in some cases, due to buffering, changes made to a file may not show until you close the file.
 
+## Clase 22/04/2021
+
+Errores que pueden ocurrir al abrir un archivo
+
+El archivo puede no encontrarse o que tenga permisos especiales
+
+
+
+**import** os
+
+Importa una paqueteria. la cual tiene un metodo para obtener un directorio.
+
+os.getcwd()	Obtiene la direccion actual
+
+os.chdir("PATH")	Cambia de direcccion/ruta.
+
+
+
+Working directory La ruta donde se esta trabajando
+
+script path la ruta donde se ubica el script
+
+
+
+Para leer un archivo, primero se tiene que abrir con open()
+
+
+
+La funcion len toma el cuenta caracteres especiales, como salto de linea.
+
+
+
+**rstrip**
+
+Para eliminar caracteres del archivo, podemos usar la funcion rstrip
+
+FILE.rstrip('characters')
+
+The `rstrip()` method removes any trailing characters (characters at the end a string), space is the default trailing character to remove.
+
+
+
+Open es una funcion que posee parametros:
+
+r	read	Abre y lee archivo o da error si no existe
+
+a	append	Abre un archivo por apendice o crea archivo si no existe. La informacion se anadira al final del contenido.
+
+w	write	Abre un archivo para escribir y crea uno si no existe
+
+x	create	Crea archivo o regresa error si existe
+
+
+
+Entonces esto habilita que podamos usar estos archivos despues con los metodos.
+
+open("file", "parameter")
+
+file.parameter("")
+
+
+
+**Listas y loops**
+
+List 	Estructura que almacena objetos como elementos.
+
+list_name = ["element1", "element2", "element3"]
+
+Los elementos de la lista pueden ser de diferente tipo de dato.
+
+
+
+Para conocer el tipo de dato, existe la funcion type
+
+type(var)
+
+
+
+Para acceder a un elemento de la lista, se usa la posicion del elemento, siendo que las posiciones comienzan desde el elemento 0 al elemento n-1
+
+list_name[index]
+
+Tambien se puede usar rangos
+
+list_name[first_element:last_element]
+
+Tambien permite hacer saltos
+
+list_name[first_element:last_element:tamanodelossaltos]
+
+Esto tambien funciona con los strings
+
+
+
+**Index**
+
+Para buscar un elemento en la lista sin conocer el index, se utiliza el metodo index
+
+list_name.index("value/string")
+
+
+
+**Append**
+
+Permite anadir elementos al final de la lista
+
+list_name.append("value/string")
+
+
+
+Las listas se pueden unir con el operador +
+
+list3 = list1 + list2
+
+
+
+La funcion len tambien permite medir el tamano de las listas
+
+
+
+**Extend**
+
+Metodo que permite extender una lista
+
+list.extend(list2)
+
+
+
+**Reverse**
+
+Metodo que permite revertir los elementos de la lista
+
+list.reverse()
+
+
+
+Para imprimir el contenido de la lista, se usa str(list)
+
+
+
+## Clase 29/04/2021
+
+**Loops**
+
+Operaciones repetitivas
+
+for <var> in <iterable>:
+
+​	<stament(s)>
+
+Podemos usar una lista, un string (que es una lista), un archivo (donde se obtendria cada una de las lineas del archivo).
+
+
+
+El for va recorriendo automaticamente en los valores de la lista
+
+EJEMPLO:
+
+```python
+for character in "JOTARO":
+    print(character)
+```
+
+output: 
+
+J
+
+O
+
+T
+
+A
+
+R
+
+O
+
+
+
+**Indentaciones**
+
+Python es sensible a las indentaciones
+
+
+
+**split**
+
+Cortar un string con split
+
+var.split('character')
+
+Permite cortar un string en base a un caracter.
+
+Estos fragmentos se pueden guardar en una lista
+
+list = var.split('character')
+
+
+
+**readlines**
+
+Metodo para leer todas las lineas, devolviendo una lista
+
+var = file.readlines()
+
