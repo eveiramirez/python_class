@@ -13,7 +13,7 @@ CONTACT
         iramirez@lcg.unam.mx
 
 GITHUB
-        https://github.com/eveiramirez/python_class/blob/master/python_scripts/nucleotide_counter.py
+        https://github.com/eveiramirez/python_class/edit/master/python_scripts/4_dna_sequences_converter.py
 
 DESCRIPTION
         This program creates a fasta file from the 4_dna_sequences.txt file
