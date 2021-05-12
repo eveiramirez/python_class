@@ -6,7 +6,7 @@
 
 
 
-## CLASE 11/03/2021
+## Clase 11/03/2021
 
 Pycharm, editor/IDE de Python
 
@@ -16,7 +16,7 @@ python --version
 
 Permite verificar la version de Python
 
-## CLASE 18/03/2021
+## Clase 18/03/2021
 
 Ciclo de desarrollo de software
 
@@ -144,7 +144,7 @@ Permite realizar una busqueda en el codigo, y pueden hacerse busquedas con expre
 
 
 
-## CLASE 08/04/2021
+## Clase 08/04/2021
 
 Pycharm
 
@@ -596,4 +596,186 @@ list = var.split('character')
 Metodo para leer todas las lineas, devolviendo una lista
 
 var = file.readlines()
+
+
+
+## Clase 06/05/2021
+
+Recomendacion: Comentarios en infinitivo, cortos y que estan arriba de la linea de codigo y no al lado
+
+
+
+### Iteradores
+
+Una variable puede ser iterable (numbers = [1,2,3])
+
+Existen iteradores que son agentes que hacen realmente la iteracion sobre un iterable
+
+iterador = iter(numbers)
+
+iter() = Sirve para crear una variable iterador
+
+
+
+next(). Funcion que solo funciona con iteradores, para acceder a los elementos de la lista. Recorre los elementos de una variable iterable, pero una vez acabado de ejecutar el codigo, guarda la posicion donde se quedo.
+
+
+
+### Generadores 
+
+Se crea un generador (objeto iterador) y se almacena en una lista.
+
+Genera un objeto que guarda a una variable
+
+
+
+lista= [operation for n in numbers]
+
+lista= [n+4 for n in numbers]
+
+
+
+Los generadores son iteradores, y se decide si guardarlos como listas o iteradores
+
+Si se usa (), se crea un iterador y se puede acceder a los elementos resultantes del generador
+
+lista= (n+4 for n in numbers)
+
+
+
+### Enumerate
+
+Puede dar el valor resultante y el contador
+
+Es un iterador
+
+
+
+se accede con list a la lista resultante del primer elemento.
+
+
+
+Se puede avanzar con next a cada elemento
+
+e = enumerate(numbers)
+
+
+
+#### for con mas de una variable
+
+Si en un for se usa enumerate, devuelve una lista, y por lo tanto podemos guardar cada valor en ciertas variables
+
+
+
+for i, num in enumerate(numbers)
+
+
+
+i guarda la posicion y enumerate guarda el numero.
+
+(i, num)
+
+
+
+### FUNCIONES
+
+Para crear una funcion, se usa def
+
+```python
+def function():
+	x = 2
+    return x
+```
+
+Usa variables locales
+
+def define la funcion.
+
+return regresa un valor de la funcion
+
+
+
+Primero se definen las funciones para despues llamarlas
+
+
+
+Las variables pueden recibir argumentos
+
+def function(var1)
+
+
+
+Las funciones no guardan un valor, sino que realizan una operacion, y sus variables locales usarse fuera de la funcion
+
+
+
+A partir de funciones se pueden crear paquetes para usar en otros codigos.
+
+
+
+**Debug**
+
+Pycharm tiene una funcion que permite correr hasta cierta linea, haciendo clic en la linea donde se desea parar.
+
+Para obtener el resultado, se hace un Debug, que da el valor de todas las variables.
+
+Se pueden tener multiples paros, y se puede ir siguiendo los valores de las variables
+
+
+
+Redondear
+
+Permite redondear un resultado
+
+round(var, number_of_digits)
+
+
+
+Las funcion al recibir argumentos pueden recibir variables y valores. Se puede poner como parametro su nombre asignandole el valor, o sea si se conoce el nombre de los parametros se puede dar un valor, y el orden de estos parametros no influye.
+
+function(a="texto", b= 4)
+
+function(b= 4, a="texto")
+
+function(a, b)
+
+function("texto", 4)
+
+
+
+Si se comenzo nombrando los parametros, se espera que los siguientes esten nombrados, por lo que si los siguientes no lo estan entonces dara un error
+
+function(a="texto", 2) ----> ERROR
+
+
+
+Default
+
+En los parametros, se puede tener un valor default en la funcion
+
+def function(a, b = 2)
+
+Al llamarse la funcion se puede cambiar el valor
+
+
+
+Testing
+
+Se puede checar que el codigo funciona con assert
+
+
+
+assert es una funcion que permite igualar una variable/funcion a un valor que se espera, y ver si es verdarero.
+
+Da un error de Assertion Error si no se cumple, y termina el codigo con 0 cuando se cumple (no hubo error)
+
+assert suma(4, 5) == 9
+
+TAREA: FUNCION QUE CALCULE EL PORCENTAJE DE UNA LISTA DE AMINOACIDOS. EL VALOR DEFAULT (PRIMER ELEMENTO) SERAN LOS AMINOACIDOS HIDROFILICOS
+
+PIDE EL PORCENTAJE CONJUNTO DE LOS AMINOACIDOS SOLICITADOS
+
+
+
+NOTA: LAS TAREAS EN PYTHON SERAN PARA MAS TARDAR ANTES DEL MIERCOLES
 
