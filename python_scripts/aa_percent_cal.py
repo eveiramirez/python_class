@@ -13,7 +13,7 @@ CONTACT
         iramirez@lcg.unam.mx
 
 GITHUB
-        https://github.com/eveiramirez/python_class/edit/master/python_scripts/4_dna_sequences_converter.py
+        https://github.com/eveiramirez/python_class/edit/master/python_scripts/aa_percent_cal.py
 
 DESCRIPTION
         This program calculates the percentage of a list of amino acids in a protein sequence
