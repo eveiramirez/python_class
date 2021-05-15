@@ -779,3 +779,163 @@ PIDE EL PORCENTAJE CONJUNTO DE LOS AMINOACIDOS SOLICITADOS
 
 NOTA: LAS TAREAS EN PYTHON SERAN PARA MAS TARDAR ANTES DEL MIERCOLES
 
+
+
+## Clase13/03/2021
+
+Encapsulacion
+
+Dividr el codigo en funciones, dividir un programa en piezas mas pequenas
+
+Importar funciones
+
+Se tiene que dar la ruta del archivo, y en ves de slashes se usan puntos.
+
+data.file = data\file.py
+
+
+
+from file import function
+
+function()
+
+
+
+import file as name
+
+name.function()
+
+
+
+Siguiente tema
+
+Condicionales
+
+True y False
+
+Se da que una expresion es verdadera si al evaluarla se da el valor de 1, creoooo
+
+True y False no son strings
+
+== Evalua si dos variables tienen el mismo valor
+
+<
+
+!=
+
+in Si un valor esta en una lista
+
+is evalua si dos variables apuntan al mismo objeto
+
+startswith(), isupper(), islower()
+
+
+
+La sentencia if
+
+if  condition:
+
+​	code
+
+permite evaluar una funcion si es verdadera
+
+Sentencia else
+
+else:
+
+​	code
+
+Permite ejecutar un codigo con la condicion evaluada por if es falsa
+
+Sentencia elif
+
+Permite evaluar una segunda condicion si una condicion anterior no se cumplio
+
+
+
+if condition:
+
+​	code
+
+elif condition2:
+
+​	code
+
+
+
+Si te tienen muchas setencias, lo que provoca es que aumente el nivel de indentacion, por lo que no es preferible tener muchas sentencian anidadas
+
+
+
+if
+
+​	if
+
+​	else
+
+​		if
+
+​			if
+
+Tambien los else se pueden cambiar por elif, en este caso.
+
+if
+
+​	if
+
+​	elif
+
+​	else
+
+ra
+
+Libreria random
+
+Permite obtener secuencias aleatorias
+
+random.choice Devuelve un elemento aleatorio de una secuencia
+
+
+
+While
+
+Permite repetir un codigo mientras se cumpla una condicion
+
+
+
+Condiciones complejas
+
+and evalua si dos condiciones se cumple
+
+or evalua si una de las dos condiciones se cumple
+
+
+
+Mediante parentesis, (), se establece la jerarquia de las condiciones, indicando cuales se hacen primero
+
+
+
+Not
+
+Permite cambiar el valor de una condicion (Verdadero a falso y falso a verdadero)
+
+
+
+Nota: al hacer un return en un funcion, el retornar una condicion devuelve verdadero o falso
+
+return 5>5 
+
+El ejemplo devuelve falso
+
+
+
+Archivo .csv
+
+Archivo separado por comas
+
+
+
+Tarea Drosophila
+
+Para la tarea hacer un solo programa, y no un programa para cada caso. Todo se imprimira a la vez
+
