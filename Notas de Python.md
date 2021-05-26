@@ -939,3 +939,131 @@ Tarea Drosophila
 
 Para la tarea hacer un solo programa, y no un programa para cada caso. Todo se imprimira a la vez
 
+
+
+## Clase 20/05/2021
+
+### Manejo de errores y argumentos
+
+syntax errors: Mala indentacion o falta de sintaxis
+
+typos: Errores en el nombre de variables/funciones
+
+bugs: Errores que tienen que ver con como el programador comprendio el problema, funciona pero no es lo que se busca
+
+
+
+IOError: [Errno 2] No such file or directory: 'missing.txt'  
+
+
+
+exception handling o manejo de errores
+
+
+
+### Try y except
+
+try y except funcionan como for /if
+
+
+
+### Error as variable
+
+Los errores se pueden guardar como variables
+
+ex.args[0] permite acceder a los errores
+
+ex.strerror
+
+
+
+import os
+
+os.remove remueve archivo
+
+
+
+### Uso de else
+
+try
+
+except
+
+else
+
+
+
+### finally
+
+Permite ejecutar codigo sin importar si hubo excepciones
+
+```python
+try:
+
+	code
+
+except ExceptionType1:
+
+	code
+
+except ExceptionType2
+
+	code
+
+finally
+
+	code
+```
+
+
+
+### try anidado
+
+Los try pueden ser anidados
+
+```python
+try:
+	f = open('data/7-file_num.txt')
+	try:
+		my_number = int(f.read())
+	except ValueError:
+		print('not an integer!')
+	finally:
+		f.close()
+		print("the file was closed")
+except IOError:
+	print('cannot open file')  
+```
+
+
+
+### Raise
+
+raise permite generar un error en el codigo
+
+
+
+```python
+e = ValueError("Description")
+
+raise e
+```
+
+Otra sintaxis mas comun
+
+```python
+raise ValueError("Description")
+
+```
+
+
+
+### Clase para errores especiales
+
+class AmbiguousBaseError(Exception):
+	pass  
+
+
+
+Argumentos
+
