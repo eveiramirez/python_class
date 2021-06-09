@@ -1067,3 +1067,131 @@ class AmbiguousBaseError(Exception):
 
 Argumentos
 
+
+
+## Clase 27/05/2021
+
+Modulos
+
+Programacion modular, dividir un progrma en modulos o subprogramas para hacerlo mas legible y manejable.
+
+
+
+Divide y venceras
+
+
+
+Simple
+
+Facilita su mantenimiento
+
+Reusable
+
+
+
+Requiere de la creacion de funciones en un archivo ,py e importarlos en otros archivos.
+
+
+
+Se puede comentar una funcion con dobles comilas	"""..."""
+
+Podemos acceder a la ayuda usando' var.\__doc__'
+
+
+
+sys.path
+
+
+
+Al ejecutar un import, se comienza a buscar en el directorio donde se ejecuto el programa, o en la seccion PATH de sys
+
+Imprimir desde la terminal el PATH cambia la direccion.
+
+
+
+faltan cosas
+
+![image-20210527123557873](C:\Users\nachi\AppData\Roaming\Typora\typora-user-images\image-20210527123557873.png)
+
+
+
+Clase 03/06/2021
+
+Expresiones regulares
+
+Existen patrones en biologia (promotores, regiones conservadas, repeats, microsatelites), patrones en bioinformática (busqueda de archivos, obtencion de secuencias), patrones de genes, etc.
+
+
+
+Expresion regular o racional (regex o regexp), secuencia de caracteres que conforma un patrón de búsqueda
+
+
+
+Modulo de regexp para Python
+
+import re
+
+
+
+Funcion search
+
+re.search(pattern, string)
+
+Devuelve un math object
+
+
+
+Regexp
+
+Caracteres especiales
+
+[] Permite indicar un set de caracteres
+
+| . A|B, Permite hacer un match entre dos expresiones, A o B
+
+. Permite hacer un match a cualquier caracteres excepto un salto de linea.
+
+^ Permite hacer un match a caracteres que no pertencen a un conjunto de caracteres \[^...\]
+
+? 
+
+()
+
++
+
+*
+
+{m, n}
+
+^
+
+$
+
+\
+
+
+
+Modulos
+
+group() da el match
+
+
+
+() permite crear grupos de busqueda, pudiendo buscarse con var.group(numberofgroup)
+
+
+
+start
+
+var.start()
+
+obtener la posicion del match
+
+
+
+finditer() 
+
+findall() regresa una lista de objetos identificados
+
+split()
+
