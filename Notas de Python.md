@@ -1115,7 +1115,7 @@ faltan cosas
 
 
 
-Clase 03/06/2021
+## Clase 03/06/2021
 
 Expresiones regulares
 
@@ -1194,4 +1194,93 @@ finditer()
 findall() regresa una lista de objetos identificados
 
 split()
+
+
+
+## Clase 10/06/2021
+
+Diccionarios
+
+Permite almacenar cualquier tipo de dato, que estara asociado a una llave (key)
+
+dict  = {
+
+​	key: item
+
+​	key2: item2
+
+}
+
+Las llaves deben de ser unicas
+
+
+
+Existen dos maneras de acceder a los valores mediante el uso de una llave.
+
+
+
+dict_name[key]
+
+dict_name.get(key)
+
+GET permite evitar recibir un KeyError si no existe el key, y devuelve None si no lo encuentra
+
+dict_name.get(key, 0)
+
+El segundo parametro permite devolver un valor si no encuentra a key
+
+
+
+Diccionario vacio
+
+dict = {}
+
+
+
+Anadir elementos al diccionario
+
+dict[key] = value
+
+
+
+Eliminar elementos del diccionario
+
+dict.pop(key)
+
+
+
+Metodo Keys()
+
+dict.keys()
+
+Permite devolver todas las llaves del diccionario.
+
+
+
+Sorted()
+
+Funcion que permite ordenar elementos
+
+
+
+Metodo items()
+
+Permite devolver las llaves junto con sus items del diccionario
+
+
+
+```python
+for key, value in dict.items():
+    print(key, value)
+```
+
+
+
+BioPython
+
+Tiene clases especificas para manejas datos biologicos.
+
+Seq, clase para secuencia
+
+
 
