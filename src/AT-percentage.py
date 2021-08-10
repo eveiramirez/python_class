@@ -11,7 +11,7 @@ DESCRIPTION
         Calculate percentage of AT on a genome sequence
 
 CATEGORY
-        Genomic sequence
+        DNA
 
 USAGE
 
