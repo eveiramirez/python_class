@@ -14,12 +14,12 @@ CONTACT
 
 GITHUB
         https://github.com/eveiramirez/python_class/blob/master
-        /python_scripts/tarea_1.py
+        /python2/tareas/tarea_1.py
 
 DESCRIPTION
-        Este programa contiene la clase PolRegular, que permite crear
+        Este programa contiene la clase PolReg, que permite crear
         objetos que tengan atributos de poligonos regulares y obtener
-        informacion acerca de ellos.
+        informacion acerca de ellos con sus metodos.
 
         Tambien se encuentran las subclases Cuadrado y Triangulo, las
         cuales contienen metodos mas especificos
