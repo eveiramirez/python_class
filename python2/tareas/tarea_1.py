@@ -1,4 +1,4 @@
-class Pol_regular(object):
+class Pol_Regular(object):
 
     def __init__(self, nombre: str, no_lados: int, tam_lados: int):
         self.nombre = nombre
@@ -30,7 +30,7 @@ class Pol_regular(object):
         return a
 
 
-class Cuadrado(Pol_regular):
+class Cuadrado(Pol_Regular):
     def ang_int(self):
         return 90
 
@@ -41,6 +41,6 @@ class Cuadrado(Pol_regular):
         return 90
 
 
-class Triangulo(Pol_regular):
+class Triangulo(Pol_Regular):
     def sum_ang_int(self):
         return 180
