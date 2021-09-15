@@ -39,7 +39,7 @@ for i in id_dict:
 # umbral dado
 filename = "../../src/class2/sample.fastq"
 mala_calidad = []
-umbral = 32
+umbral = 40
 
 for record in SeqIO.parse(filename, "fastq"):
     promedio = sum(record.letter_annotations["phred_quality"])/len(
@@ -48,3 +48,18 @@ for record in SeqIO.parse(filename, "fastq"):
         mala_calidad.append((promedio, record.letter_annotations))
 
 print(len(mala_calidad))
+
+# Ejercicio 3.1
+# Obtener lecturas cuyo promedio de calidad sea mayor a un
+# umbral dado
+filename = "../../src/class2/sample.fastq"
+buena_calidad = []
+umbral = 40
+
+for record in SeqIO.parse(filename, "fastq"):
+    promedio = sum(record.letter_annotations["phred_quality"])/len(
+        record.letter_annotations["phred_quality"])
+    if promedio > umbral:
+        buena_calidad.append((promedio, record.letter_annotations))
+
+print(buena_calidad)
