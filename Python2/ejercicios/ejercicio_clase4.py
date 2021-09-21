@@ -7,8 +7,6 @@ struc = parser.get_structure("prot_1fat", "../../src/class3/1kcw.pdb")
 print(struc.header['structure_method'])
 print(struc.header['resolution'])
 
-print(len(struc))
-
 # EJERCICIO 2
 for model in struc:
     for residue in model.child_dict["A"]:
