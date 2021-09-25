@@ -13,7 +13,7 @@ CONTACT
         iramirez@lcg.unam.mx
 
 GITHUB
-        https://github.com/eveiramirez/python_class/blob/master/python2/tareas/get_pbd_file_residues.py
+        https://github.com/eveiramirez/python_class/blob/master/Python2/tareas/get_pdb_file_residues.py
 
 DESCRIPTION
         This program contains the get_residue function, which obtains
